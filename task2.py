@@ -69,9 +69,33 @@ def main():
     response = editRule("CO", 25000, ["rvitorino", "fmonsanto"])
     pprint.pprint(response.json())
 
+    response = createEvent("CO", 10020)
+    pprint.pprint(response.json())
+    
+    response = createEvent("CO", 12321)
+    pprint.pprint(response.json())
+    
+    response = createEvent("CO", 21000)
+    pprint.pprint(response.json())
+    
+    response = createEvent("CO", 13252)
+    pprint.pprint(response.json())
+    
+    response = createEvent("CO", 29200)
+    pprint.pprint(response.json())
+    
+    response = createEvent("CO", 22222)
+    pprint.pprint(response.json())
+    
+    response = createEvent("CO", 23980)
+    pprint.pprint(response.json())
+    
     response = createEvent("CO", 30000)
     pprint.pprint(response.json())
-
+    
+    response = createEvent("CO", 19000)
+    pprint.pprint(response.json())
+    
     response = getUserAlert("fmonsanto")
     pprint.pprint(response.json())
 	
